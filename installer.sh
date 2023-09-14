@@ -26,7 +26,7 @@ function 1418-utils() {
             bundle install
         fi
 
-        if [[ $2 == "vscode"]]; then
+        if [[ $2 == "vscode" ]]; then
             curl -L https://github.com/wpilibsuite/allwpilib/releases/download/v2023.4.3/WPILib_macOS-Arm64-2023.4.3.dmg -o ~/Desktop/WPILib.dmg
             open ~/Desktop/WPILib.dmg
         fi
