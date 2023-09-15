@@ -1,5 +1,4 @@
 #!/bin/zsh
-echo hello
 
 if [[ $1 == "install" ]]; then
     if [[ $2 == "base" ]]; then
